@@ -40,7 +40,7 @@ object HookEntrance : IYukiHookXposedInit {
     }
 
     private fun PackageParam.processQQ() {
-        val targetModel = "23046RP50C"
+        val targetModel = "24091RPADG"
         simulateTabletModel("Xiaomi", targetModel)
         simulateTabletProperties()
 
